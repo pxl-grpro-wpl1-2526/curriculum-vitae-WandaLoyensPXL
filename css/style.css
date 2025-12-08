@@ -1,5 +1,9 @@
 *{font-family: "Segoe UI", Tahoma, Verdana, Serif, sans-serif}
 
+header img{}
+
+header img:hover{ box-shadow: grey 0.2rem 0.2rem}
+
 table, tbody, tr, tbody td{border: 1px solid black;
     border-collapse: collapse;
     width: 300px;
