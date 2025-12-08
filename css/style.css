@@ -1,0 +1,10 @@
+*{font-family: "Segoe UI", Tahoma, Verdana, Serif, sans-serif}
+
+table, tbody, tr, tbody td{border: 1px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+vertical-align: middle;}
+
+tr:nth-child(even) {color: yellow; background-color: blue; font-style: italic; font-weight: bold;}
+tr:nth-child(odd) {color: blue; background-color: yellow ; font-weight: bold;}
