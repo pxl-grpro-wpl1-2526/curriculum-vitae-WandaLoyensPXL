@@ -1,6 +1,17 @@
-*{font-family: "Segoe UI", Tahoma, Verdana, Serif, sans-serif}
+*{font-family: "Segoe UI", Tahoma, Verdana, Serif, sans-serif;
+box-sizing: border-box;}
 
-header img{}
+body{margin:0; padding:0; width: 100%;}
+
+header{display:flex;flex-direction:column;
+background: #bdbdf8;}
+.introduction{}
+
+header p{margin-top:0;
+margin-bottom:1rem;}
+
+.profielfoto{float: right;
+display: flex; align-items: center;}
 
 header img:hover{ box-shadow: grey 0.2rem 0.2rem}
 
@@ -12,3 +23,13 @@ vertical-align: middle;}
 
 tr:nth-child(even) {color: yellow; background-color: blue; font-style: italic; font-weight: bold;}
 tr:nth-child(odd) {color: blue; background-color: yellow ; font-weight: bold;}
+
+.footerpart{ background-color: #bdbdf8;
+    width: 100%;
+    margin: auto;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;}
+.footerpart article{margin: auto;}
+
+.footerpart a{ text-decoration: none;}
