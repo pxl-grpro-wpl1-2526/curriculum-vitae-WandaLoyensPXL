@@ -5,13 +5,18 @@ body{margin:0; padding:0; width: 100%;}
 
 header{display:flex;flex-direction:column;
 background: #bdbdf8;}
-.introduction{}
+.introduction{
+    display: flex;
+    flex-direction: column;
+}
 
 header p{margin-top:0;
 margin-bottom:1rem;}
 
-.profielfoto{float: right;
-display: flex; align-items: center;}
+.profielfoto{
+display: flex;}
+.profielfoto img{width: 200px;
+    height: auto;}
 
 header img:hover{ box-shadow: grey 0.2rem 0.2rem}
 
@@ -32,4 +37,5 @@ flex-direction: row;
 justify-content: space-around;}
 .footerpart article{margin: auto;}
 
-.footerpart a{ text-decoration: none;}
+.footerpart a, a:hover, a:visited{ text-decoration: none; color: black}
+
