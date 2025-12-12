@@ -1,13 +1,21 @@
 *{font-family: "Segoe UI", Tahoma, Verdana, Serif, sans-serif;
 box-sizing: border-box;}
 
-body{margin:0; padding:0; width: 100%;}
+body{margin:0; padding:0; width: 100%;
+background-image:url("/images/i-made-blåhaj-wallpapers-for-you-all-v0-046iynyjqi6b1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed;}
 
 header{display:flex;flex-direction:column;
-background: #bdbdf8;}
+background: #bdbdf8;
+    margin-left: 5rem;
+    margin-right: 5rem;}
+
 .introduction{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 header p{margin-top:0;
@@ -20,18 +28,28 @@ display: flex;}
 
 header img:hover{ box-shadow: grey 0.2rem 0.2rem}
 
+main{
+    width: auto;
+background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 table, tbody, tr, tbody td{border: 1px solid black;
     border-collapse: collapse;
     width: 300px;
     text-align: center;
 vertical-align: middle;}
 
-tr:nth-child(even) {color: yellow; background-color: blue; font-style: italic; font-weight: bold;}
-tr:nth-child(odd) {color: blue; background-color: yellow ; font-weight: bold;}
+tr:nth-child(even) {color: #9a9aed; background-color: #3535b8; font-style: italic; font-weight: bold;}
+tr:nth-child(odd) {color: #3535b8; background-color: #9a9aed; font-weight: bold;}
 
 .footerpart{ background-color: #bdbdf8;
-    width: 100%;
-    margin: auto;
+    width: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
     display: flex;
 flex-direction: row;
 justify-content: space-around;}
