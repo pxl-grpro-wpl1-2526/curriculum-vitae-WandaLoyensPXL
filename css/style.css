@@ -12,20 +12,31 @@ background: #bdbdf8;
     margin-left: 5rem;
     margin-right: 5rem;}
 
+header p{margin-top:0;
+    margin-bottom:1rem;}
+
 .introduction{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-header p{margin-top:0;
-margin-bottom:1rem;}
+.intro-text{
+    border: 5px solid #3535b8;
+    background-color: white;
+    height: 50%;
+    border-radius: 1rem;
+    padding: 0 0.5rem 1rem;
+}
 
 .profielfoto{
 display: flex;}
+
 .profielfoto img{width: 200px;
     height: auto;
-margin-top: 0.2rem;}
+margin-top: 0.2rem;
+border: 0.5rem solid #3535b8;
+border-radius: 1rem;}
 
 .profielfoto img:hover{ box-shadow: grey 0.2rem 0.2rem}
 
@@ -38,7 +49,9 @@ background-color: white;
     flex-wrap: wrap;
     margin-left: 5rem;
     margin-right: 5rem;
+    border: 5px solid #3535b8;
 }
+
 table, tbody, tr, tbody td{border: 1px solid black;
     border-collapse: collapse;
     width: 300px;
@@ -55,6 +68,7 @@ tr:nth-child(odd) {color: #3535b8; background-color: #9a9aed; font-weight: bold;
     display: flex;
 flex-direction: row;
 justify-content: space-around;}
+
 .footerpart article{margin: auto;}
 
 .footerpart a, a:hover, a:visited{ text-decoration: none; color: black}
