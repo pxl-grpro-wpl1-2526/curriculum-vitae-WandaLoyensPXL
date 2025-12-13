@@ -24,9 +24,10 @@ margin-bottom:1rem;}
 .profielfoto{
 display: flex;}
 .profielfoto img{width: 200px;
-    height: auto;}
+    height: auto;
+margin-top: 0.2rem;}
 
-header img:hover{ box-shadow: grey 0.2rem 0.2rem}
+.profielfoto img:hover{ box-shadow: grey 0.2rem 0.2rem}
 
 main{
     width: auto;
