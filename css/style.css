@@ -8,6 +8,8 @@ background-image:url("/images/i-made-blåhaj-wallpapers-for-you-all-v0-046iynyjq
     background-size: cover;
 background-attachment: fixed;}
 
+h3, h4, h1{color: #3535b8}
+
 header{display:flex;flex-direction:column;
 background: #bdbdf8;
     margin-left: 5rem;
@@ -77,6 +79,7 @@ background-color: white;
         font-weight: bold;
     }
 }
+
 .footerpart{ background-color: #bdbdf8;
     width: auto;
     margin-left: 5rem;
@@ -102,6 +105,8 @@ header, main, .footerpart {margin-left: 2rem; margin-right: 2rem;}
 @media screen and (max-width: 576px)
 {
     header, .footerpart {margin-left: 0; margin-right: 0}
-    .talenkennis{display: flex;
-    flex-direction: column;}
+    .talenkennis, .talenkennis td{display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+    .talenkennis td{font-weight: bold;}
 }
