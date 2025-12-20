@@ -6,19 +6,19 @@ body{margin:0; padding:0; width: 100%;
 background-image:url("/images/i-made-blåhaj-wallpapers-for-you-all-v0-046iynyjqi6b1.png");
     background-repeat: no-repeat;
     background-size: cover;
-background-attachment: fixed;}
+background-attachment: fixed;
+background-position: center;}
 
-h3, h4, h1{color: #3535b8}
+h3, h4, h1{color: #3535b8; }
 
 header{display:flex;flex-direction:column;
-background: #bdbdf8;
-    margin-left: 5rem;
-    margin-right: 5rem;}
+background: #bdbdf8;}
 
 header p{margin-top:0;
     margin-bottom:1rem;}
 
 .introduction{
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -26,6 +26,7 @@ header p{margin-top:0;
 
 
 .intro-text{
+    margin-top:2rem;
     border: 5px solid #3535b8;
     background-color: white;
     height: 50%;
@@ -47,14 +48,50 @@ border-radius: 1rem;}
 
 main{
     width: auto;
-background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 5rem;
     margin-right: 5rem;
+}
+main article{
+
     border: 5px solid #3535b8;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.footerpart{ background-color: #bdbdf8;
+    width: auto;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;}
+
+.footerpart article{margin: auto;}
+
+.footerpart a, a:hover, a:visited{ text-decoration: none; color: black}
+
+@media screen and (max-width: 992px) {  main{margin-left: 1rem; margin-right: 1rem;}
+    .intro-text{border: 1px solid #3535b8;
+    border-radius: 0;
+    margin:0;}
+
+   main article{margin: 0; margin-top: 1rem;}
+    .profielfoto img{border:none;
+    border-radius: 0;
+    width: 10rem;}
+    .profielfoto img:hover{ box-shadow: none;}
+}
+@media screen and (max-width: 576px)
+{
+    header, .footerpart {margin-left: 0; margin-right: 0}
+    .talenkennis, .talenkennis td{display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+    .talenkennis td{font-weight: bold;}
 }
 
 @media screen and (min-width: 576px) {
@@ -78,35 +115,4 @@ background-color: white;
         background-color: #9a9aed;
         font-weight: bold;
     }
-}
-
-.footerpart{ background-color: #bdbdf8;
-    width: auto;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    display: flex;
-flex-direction: row;
-justify-content: space-around;}
-
-.footerpart article{margin: auto;}
-
-.footerpart a, a:hover, a:visited{ text-decoration: none; color: black}
-
-@media screen and (max-width: 992px) {
-header, main, .footerpart {margin-left: 2rem; margin-right: 2rem;}
-    .intro-text{border: 1px solid #3535b8;
-    border-radius: 0;
-    }
-    .profielfoto img{border:none;
-    border-radius: 0;
-    width: 10rem;}
-    .profielfoto img:hover{ box-shadow: none;}
-}
-@media screen and (max-width: 576px)
-{
-    header, .footerpart {margin-left: 0; margin-right: 0}
-    .talenkennis, .talenkennis td{display: flex;
-    flex-direction: row;
-    justify-content: space-around;}
-    .talenkennis td{font-weight: bold;}
 }
